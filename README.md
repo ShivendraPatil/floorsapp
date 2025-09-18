@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,3 +11,7 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# floorsapp
+🏢 Business Square – A React + Firebase app that showcases a multi-floor building directory. Explore shops and services from Basement to Seventh Floor with detailed owner info, contact details, and service descriptions. Built for learning, demo, and portfolio projects.
+>>>>>>> 48b516e57c09eb5743a62618c1535a5024318518
