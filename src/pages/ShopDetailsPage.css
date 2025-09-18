@@ -1,0 +1,110 @@
+.shop-details-container {
+  min-height: 100vh;
+  background: #f4f4f9;
+  font-family: 'Playfair Display', serif;
+}
+
+.shop-details-overlay {
+  display: none; /* Not needed for this design */
+}
+
+.shop-details-content {
+  position: relative;
+  z-index: 2;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.shop-details-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+}
+
+.shop-card-details {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  max-width: 650px;
+  width: 90%;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  color: #333;
+  border-top: 5px solid #4a90e2;
+}
+
+.shop-name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.owner-details {
+    background: #f8f9fa;
+    border-left: 3px solid #4a90e2;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.shop-owner,
+.shop-contact {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.shop-contact a {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.shop-contact a:hover {
+    color: #357ABD;
+    text-decoration: underline;
+}
+
+.shop-floor {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #7f8c8d;
+}
+
+.back-to-floor-button {
+  margin-top: 30px;
+  background: #34495e;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.back-to-floor-button:hover {
+  background: #2c3e50;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.loading {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

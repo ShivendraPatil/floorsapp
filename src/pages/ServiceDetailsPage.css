@@ -1,0 +1,79 @@
+.service-details-container {
+  min-height: 100vh;
+  background: #f9f9f9;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+.service-details-content {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.service-details-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.service-card-details {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  border-top: 4px solid #5cb85c;
+}
+
+.service-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.service-floor {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #7f8c8d;
+}
+
+.service-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.back-to-floor-button-service {
+  margin-top: 30px;
+  background: #34495e;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.back-to-floor-button-service:hover {
+  background: #2c3e50;
+  transform: translateY(-2px);
+}
+
+.loading {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
